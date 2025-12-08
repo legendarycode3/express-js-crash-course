@@ -1,0 +1,19 @@
+{
+  "name": "expresjs-crash-course",
+  "version": "1.0.0",
+  "description": "Express.js crash course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon  --env-file=.env server.js"
+  },
+  "author": "LegendaryCode",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
