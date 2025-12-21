@@ -38,7 +38,7 @@
 The first 1st thing You will need to create a  “package.json” file . </br>
 And we 	can do that by using an “NPM command on VSCode terminal (instead of creating it manuel)”, bellow is the following step : </br>
  npm init  </br>
- <img width="903" height="517" alt="package-json-file-image1" src="https://github.com/user-attachments/assets/07ed21ca-9d3b-4413-863b-7fea10b98185" />
+![](images/package-json-file-image1.png)  
 
 
 
