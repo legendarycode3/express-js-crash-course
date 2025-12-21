@@ -40,6 +40,7 @@ And we 	can do that by using an “NPM command on VSCode terminal (instead of cr
  npm init  </br>
 ![](images/package-json-file-image1.png)  
 
+![](images/loading-files-using-the-file-system-module-img19.png) <br/>
 
 
 
