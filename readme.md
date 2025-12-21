@@ -10,11 +10,12 @@
 
 
 ➡️ **EXPRESS.JS** </br>
-✔️ What is Express.js ?  Express.js , is a Node.js framework, which has the following attributes / characteristic : It,
-1) Minimal and flexible web framework for Node.js
-2) Used for building “Server-Side Web Applications”, “Micro Services” and “APIs” .
-3)The most popular framework for Node.
-4) Simplifies the process of handling HTTP requests and responses.
+✔️ What is Express.js ?  Express.js , is a Node.js framework, which has the following attributes / characteristic : It, </br>
+1) Minimal and flexible web framework for Node.js </br>
+2) Used for building “Server-Side Web Applications”, “Micro Services” and “APIs” . </br>
+3)The most popular framework for Node. </br>
+4) Simplifies the process of handling HTTP requests and responses. <br>
+5) Express is a very fast and unopinioated framework. </br>
 
 
 
