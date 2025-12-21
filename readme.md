@@ -80,6 +80,9 @@ i). For logins. </br>
 ii).For authentication. </br>
 iii).You can add to request object. </br>
 
+Setting Up A Static Server In Express.js: </br> 
+You will use the built-in express.static  middleware. This  middleware  allows you to serve static files such as HTML, CSS , JavaScript, Images  & other assets directly from a specified directory. </br>
+
 
 
 
