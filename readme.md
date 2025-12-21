@@ -33,8 +33,9 @@
 4) Structure folders how you want. </br>
 5) Some Examples Include: Express.js , Flask, Spring . </br>
 
-✔️ When Creating A Express.js Project: 
-	**NOTE:** When starting a new “nodejs project”.
+✔️ When Creating A Express.js Project: </br>
+	**NOTE:** When starting a new “nodejs project”. </br>
+
 
 
 
