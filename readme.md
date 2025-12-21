@@ -14,17 +14,18 @@
 1) Minimal and flexible web framework for Node.js </br>
 2) Used for building “Server-Side Web Applications”, “Micro Services” and “APIs” . </br>
 3)The most popular framework for Node. </br>
-4) Simplifies the process of handling HTTP requests and responses. <br>
+4) Simplifies the process of handling HTTP requests and responses. </br>
 5) Express is a very fast and unopinioated framework. </br>
 
 
 ➡️ **Opinionated Vs Unopinionated (Framework)**
 ✔️ Opinionated (Frameworks): </br>
 1) Has a lot of rules  & conventions that you need to follow. </br>
-2) Suggested ways to do things .
-3) Strict folder  structure.
-4) Suggested ways to do things .
-Strict folder  structure.
+2) Suggested ways to do things . </br>
+3) Strict folder  structure. </br>
+4) Suggested ways to do things . </br>
+5) Strict folder  structure. </br>
+
 
 
 
