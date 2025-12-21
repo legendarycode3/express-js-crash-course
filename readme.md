@@ -92,7 +92,9 @@ Below is an Diagram results examples using both the “PostMan"(the main expecte
 **.env File** :- The primary reason for using A .env file in a Node.js project is to manage environment variables. Which offers significant advantages for security and flexibility. </br>
 E.g diagram below: </br>
 <img width="688" height="224" alt="postman-integratiion-using-vscode-img10" src="https://github.com/user-attachments/assets/8e446639-142b-4f8e-ada2-0bdf5ec9d955" /> </br>
-<img width="129" height="128" alt="integrating-env-img11" src="https://github.com/user-attachments/assets/5c46af29-234a-44ca-85a7-71bfb2ae6fdf" />
+<img width="129" height="128" alt="integrating-env-img11" src="https://github.com/user-attachments/assets/5c46af29-234a-44ca-85a7-71bfb2ae6fdf" /> </br>
+<img width="127" height="122" alt="integrating-env-img12" src="https://github.com/user-attachments/assets/0ea400e1-cb81-4952-bb11-aab01c3f1ee9" /> </br>
+
 
 
 
