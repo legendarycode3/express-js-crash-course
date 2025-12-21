@@ -85,6 +85,15 @@ You will use the built-in express.static  middleware. This  middleware  allows y
 
 ✔️ How To Interact With  “JSON  api”  USING express.js : </br>
 **NOTE**: When dealing with “json data”, the browser is not the best tool to use, (becus you  want to be able to test requests like GET, POST, PUT, DELETE). Which you can basically use a tool called “POSTMAN”, which is the best way to test APIs (there is a desktop Vscode extension version). </br>
+<img width="645" height="447" alt="postman-integratiion-using-vscode-img8" src="https://github.com/user-attachments/assets/db42cade-523c-485f-9878-1ce3b833a191" /> </br>
+Below is an Diagram results examples using both the “PostMan"(the main expected tool to use) and  the “Chrome Browser” </br>
+<img width="748" height="350" alt="postman-integratiion-using-vscode-img9" src="https://github.com/user-attachments/assets/5294199a-5d91-4920-adeb-97fd5e0054a2" /> </br>
+
+**.env File** :- The primary reason for using A .env file in a Node.js project is to manage environment variables. Which offers significant advantages for security and flexibility. </br>
+E.g diagram below: </br>
+<img width="688" height="224" alt="postman-integratiion-using-vscode-img10" src="https://github.com/user-attachments/assets/8e446639-142b-4f8e-ada2-0bdf5ec9d955" /> </br>
+
+
 
 
 
