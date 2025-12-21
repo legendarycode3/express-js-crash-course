@@ -35,6 +35,9 @@
 
 ✔️ When Creating A Express.js Project: </br>
 	**NOTE:** When starting a new “nodejs project”. </br>
+The first 1st thing You will need to create a  “package.json” file . </br>
+And we 	can do that by using an “NPM command on VSCode terminal (instead of creating it manuel)”, bellow is the following step : </br>
+ npm init  </br>
 
 
 
