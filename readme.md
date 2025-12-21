@@ -23,6 +23,8 @@
 1) Has a lot of rules  & conventions that you need to follow. </br>
 2) Suggested ways to do things .
 3) Strict folder  structure.
+4) Suggested ways to do things .
+Strict folder  structure.
 
 
 
