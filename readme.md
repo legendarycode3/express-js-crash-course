@@ -62,9 +62,9 @@ nodemon is a tool that monitors for changes in your source code files and automa
 This is particularly useful during development because it eliminates the need to manually stop and restart your server everytime you make an iteration to your code.
  CommandLine Terminal Text usualy used on it is: </br>
 npm start
-<img width="608" height="388" alt="nodemon-installed-img5" src="https://github.com/user-attachments/assets/edc559a5-30b2-4b4f-a8f6-9c14f16de8cb" />
+<img width="608" height="388" alt="nodemon-installed-img5" src="https://github.com/user-attachments/assets/edc559a5-30b2-4b4f-a8f6-9c14f16de8cb" /> </br>
 
-
+b) “node --watch server” adding it on the package.json file:  This is second 2nd option way of  integrating the tool that automatically restarts your server upon any code changes you make in your project. </br>
 
 
 
