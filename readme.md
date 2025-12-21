@@ -43,10 +43,12 @@ And we 	can do that by using an “NPM command on VSCode terminal (instead of cr
 The 2 Second 2nd  thing You do is to install “Express.js” & “save” it in your 	package.json 	dependencies, (in your project , use this command): </br> 
 Npm install express --save </br>
 <img width="743" height="475" alt="installing-express-file-img2" src="https://github.com/user-attachments/assets/11df92a4-1b64-4ca0-a829-c32375b3981d" />  </br>
+<img width="678" height="420" alt="con-of-using-malware-img23" src="https://github.com/user-attachments/assets/ae9ad0a5-6515-40bd-8903-44c55d3eea6f" /> </br>
 
 The 3 Third 3rd   thing You do is to create the gitignore file in your Code Editor (e.g VSCode): </br>
 .gitignore file, allows developers to specify which files and directories should be excluded from version control (Git). This helps keep repositories tidy, preventing sensitive information from being exposed , and ensures that only essential files are tracked.   A diagram below: </br>
-<img width="678" height="420" alt="con-of-using-malware-img23" src="https://github.com/user-attachments/assets/ae9ad0a5-6515-40bd-8903-44c55d3eea6f" /> </br>
+<img width="712" height="352" alt="creating-an-entry-file-img4" src="https://github.com/user-attachments/assets/1be58a66-10b6-40cd-bfe0-05a0f535c719" />
+
 
 
 
