@@ -75,7 +75,10 @@ npm run dev </br>
 
 ➡️ **CUSTOM MIDDLEWARE  (In Express.js) -  LESSON 2** </br>
 ✔️ MiddleWare:  This are function that runs , between the “incoming request” & the “outgoing response”.  </br>
-
+They are functions that have access to request(req) & response(res) object. You can use middleware , for :
+i). For logins.
+ii).For authentication.
+iii).You can add to request object
 
 
 
