@@ -27,6 +27,7 @@
 5) Strict folder  structure. </br>
 
 ✔️ Unopinionated (Frameworks): </br>
+1) They  are extremely flexible (U can can structure apps how ever you want, & use what ever database, library you want). </br>
 
 
 
