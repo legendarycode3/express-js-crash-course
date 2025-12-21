@@ -19,6 +19,8 @@
 
 
 ➡️ **Opinionated Vs Unopinionated (Framework)**
+✔️ Opinionated (Frameworks): 
+1) Has a lot of rules  & conventions that you need to follow.
 
 
 
