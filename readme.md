@@ -94,6 +94,8 @@ E.g diagram below: </br>
 <img width="688" height="224" alt="postman-integratiion-using-vscode-img10" src="https://github.com/user-attachments/assets/8e446639-142b-4f8e-ada2-0bdf5ec9d955" /> </br>
 <img width="129" height="128" alt="integrating-env-img11" src="https://github.com/user-attachments/assets/5c46af29-234a-44ca-85a7-71bfb2ae6fdf" /> </br>
 <img width="127" height="122" alt="integrating-env-img12" src="https://github.com/user-attachments/assets/0ea400e1-cb81-4952-bb11-aab01c3f1ee9" /> </br>
+<img width="127" height="122" alt="integrating-env-img13" src="https://github.com/user-attachments/assets/e2036373-b60f-4e0c-bb6b-3851fbb01669" /> </br>
+
 
 
 
