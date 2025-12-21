@@ -6,6 +6,8 @@
 3. HTTP Basics  (Methods, status codes, etc)  </br>
 4. How JSON APIs work.  </br>
 5.Basic understanding of  Node.js
+6.NPM (Node Package Manager)
+
 
 
 
