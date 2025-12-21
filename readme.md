@@ -83,6 +83,9 @@ iii).You can add to request object. </br>
 Setting Up A Static Server In Express.js: </br> 
 You will use the built-in express.static  middleware. This  middleware  allows you to serve static files such as HTML, CSS , JavaScript, Images  & other assets directly from a specified directory. </br>
 
+✔️ How To Interact With  “JSON  api”  USING express.js : </br>
+**NOTE**: When dealing with “json data”, the browser is not the best tool to use, (becus you  want to be able to test requests like GET, POST, PUT, DELETE). Which you can basically use a tool called “POSTMAN”, which is the best way to test APIs (there is a desktop Vscode extension version). </br>
+
 
 
 
