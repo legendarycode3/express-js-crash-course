@@ -28,7 +28,10 @@
 
 ✔️ Unopinionated (Frameworks): </br>
 1) They  are extremely flexible (U can can structure apps how ever you want, & use what ever database, library you want). </br>
-2.) Different ways to do things . </br>
+2) Different ways to do things . </br>
+3) Includes the bare necessities.
+4) Structure folders how you want.
+
 
 
 
