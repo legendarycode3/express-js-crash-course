@@ -73,6 +73,9 @@ npm run dev </br>
 ![Uploading routing-file-in-general-img7.png…]()
 
 
+**CUSTOM MIDDLEWARE  (In Express.js) -  LESSON 2**
+
+
 
 
 
