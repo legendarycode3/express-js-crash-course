@@ -54,6 +54,8 @@ The 4 Fouth 4th  thing” you will need to do is, “creating an entry file”. 
 
 
 ➡️ **ROUTING (In Express.js) -  LESSON 1**
+NOTE: When developing with Express.js,  the package manager you would use to install a tool that automatically restarts your server upon code changes includes: 
+ npm (Node Package Manager) 3rd parrty package Or the watch flask (node watch) </br>
 
 
 
