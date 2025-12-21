@@ -38,9 +38,11 @@
 The first 1st thing You will need to create a  “package.json” file . </br>
 And we 	can do that by using an “NPM command on VSCode terminal (instead of creating it manuel)”, bellow is the following step : </br>
  npm init  </br>
-![](images/package-json-file-image1.png)  
+![](images/package-json-file-image1.png)  </br>
 
-![](images/loading-files-using-the-file-system-module-img19.png) <br/>
+The 2 Second 2nd  thing You do is to install “Express.js” & “save” it in your 	package.json 	dependencies, (in your project , use this command): </br> 
+Npm install express --save </br>
+![](images/installing-express-file-img2.png)  </br>
 
 
 
