@@ -42,7 +42,10 @@ And we 	can do that by using an “NPM command on VSCode terminal (instead of cr
 
 The 2 Second 2nd  thing You do is to install “Express.js” & “save” it in your 	package.json 	dependencies, (in your project , use this command): </br> 
 Npm install express --save </br>
-![](images/installing-express-file-img2.png)  </br>
+
+<img width="743" height="475" alt="installing-express-file-img2" src="https://github.com/user-attachments/assets/11df92a4-1b64-4ca0-a829-c32375b3981d" />
+
+
 
 
 
