@@ -47,7 +47,11 @@ Npm install express --save </br>
 
 The 3 Third 3rd   thing You do is to create the gitignore file in your Code Editor (e.g VSCode): </br>
 .gitignore file, allows developers to specify which files and directories should be excluded from version control (Git). This helps keep repositories tidy, preventing sensitive information from being exposed , and ensures that only essential files are tracked.   A diagram below: </br>
-<img width="712" height="352" alt="creating-an-entry-file-img4" src="https://github.com/user-attachments/assets/1be58a66-10b6-40cd-bfe0-05a0f535c719" />
+<img width="742" height="287" alt="creating-ignore-file-img3" src="https://github.com/user-attachments/assets/6c407f68-4bd5-400b-b017-e337d8eef7e9" /> </br>
+
+The 4 Fouth 4th  thing” you will need to do is, “creating an entry file”. (which is your main file). E.g like index.js  , app.js. , server.js  (diagram below): </br>
+<img width="712" height="352" alt="creating-an-entry-file-img4" src="https://github.com/user-attachments/assets/1be58a66-10b6-40cd-bfe0-05a0f535c719" /> </br>
+
 
 
 
