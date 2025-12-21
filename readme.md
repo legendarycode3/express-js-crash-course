@@ -46,6 +46,8 @@ Npm install express --save </br>
 
 The 3 Third 3rd   thing You do is to create the gitignore file in your Code Editor (e.g VSCode): </br>
 .gitignore file, allows developers to specify which files and directories should be excluded from version control (Git). This helps keep repositories tidy, preventing sensitive information from being exposed , and ensures that only essential files are tracked.   A diagram below: </br>
+<img width="678" height="420" alt="con-of-using-malware-img23" src="https://github.com/user-attachments/assets/ae9ad0a5-6515-40bd-8903-44c55d3eea6f" /> </br>
+
 
 
 
