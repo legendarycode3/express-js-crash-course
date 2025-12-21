@@ -65,6 +65,9 @@ npm start
 <img width="608" height="388" alt="nodemon-installed-img5" src="https://github.com/user-attachments/assets/edc559a5-30b2-4b4f-a8f6-9c14f16de8cb" /> </br>
 
 b) “node --watch server” adding it on the package.json file:  This is second 2nd option way of  integrating the tool that automatically restarts your server upon any code changes you make in your project. </br>
+CommandLine Terminal Text usualy used on it is: </br>
+npm run dev </br>
+
 
 
 
