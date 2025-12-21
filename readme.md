@@ -67,6 +67,8 @@ npm start
 b) “node --watch server” adding it on the package.json file:  This is second 2nd option way of  integrating the tool that automatically restarts your server upon any code changes you make in your project. </br>
 CommandLine Terminal Text usualy used on it is: </br>
 npm run dev </br>
+<img width="974" height="394" alt="watch-other-option-for-automatic-runing-img6" src="https://github.com/user-attachments/assets/9e0b98e6-d120-4188-bb12-b25f731d322b" />
+
 
 
 
