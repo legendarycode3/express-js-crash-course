@@ -5,8 +5,8 @@
 2. Asynchronous programming - Promise, callbacks, async/await.  </br>
 3. HTTP Basics  (Methods, status codes, etc)  </br>
 4. How JSON APIs work.  </br>
-5.Basic understanding of  Node.js
-6.NPM (Node Package Manager)
+5.Basic understanding of  Node.js </br>
+6.NPM (Node Package Manager) </br>
 
 
 ➡️ **EXPRESS.JS** </br>
@@ -62,6 +62,8 @@ nodemon is a tool that monitors for changes in your source code files and automa
 This is particularly useful during development because it eliminates the need to manually stop and restart your server everytime you make an iteration to your code.
  CommandLine Terminal Text usualy used on it is: </br>
 npm start
+<img width="608" height="388" alt="nodemon-installed-img5" src="https://github.com/user-attachments/assets/edc559a5-30b2-4b4f-a8f6-9c14f16de8cb" />
+
 
 
 
