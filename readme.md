@@ -61,6 +61,7 @@ a) “npm install nodemon” terminal command:  Is used to install the nodemon p
 nodemon is a tool that monitors for changes in your source code files and automatically restarts your Node.js application when those changes are detected.
 This is particularly useful during development because it eliminates the need to manually stop and restart your server everytime you make an iteration to your code.
  CommandLine Terminal Text usualy used on it is: </br>
+npm start
 
 
 
