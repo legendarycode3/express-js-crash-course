@@ -69,7 +69,8 @@ CommandLine Terminal Text usualy used on it is: </br>
 npm run dev </br>
 <img width="974" height="394" alt="watch-other-option-for-automatic-runing-img6" src="https://github.com/user-attachments/assets/9e0b98e6-d120-4188-bb12-b25f731d322b" /> </br>
 
-✔️ ROUTING:  Routing in general & (specifically express.js), refers to how an application determines how to respond to client requests based on the URL (path) and HTTP method (GET, POST, PUT, DELETE, etc.).
+✔️ ROUTING:  Routing in general & (specifically express.js), refers to how an application determines how to respond to client requests based on the URL (path) and HTTP method (GET, POST, PUT, DELETE, etc.). </br>
+
 
 
 
