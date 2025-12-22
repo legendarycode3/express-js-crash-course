@@ -165,8 +165,9 @@ app.get('/api/posts', (req, res) => { </br>
 ✔️ Routes Organizing In A Different File:  To organize routes in Express.js  by creating a routes folder with a routes.js or posts.js etc. File inside , follow the steps below: </br>
 NOTE: We are still using “common js”, which is the native module system for nodejs. We are not using “ES module” yet. 
 And if you want to change to “ES module”, just go to package.json file,  and set </br>
-“type”: “module”
-   
+“type”: “module”  </br>
+1) 1st  Create the routes folder and route.js for posts.js file:- Create a new folder named routes in the root of your project. Inside this folder , create a file named routes.js or posts.js etc. </br>
+
 
 
 
