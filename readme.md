@@ -170,6 +170,9 @@ And if you want to change to “ES module”, just go to package.json file,  and
 <img width="444" height="374" alt="rout-organizing-in-different-files-img17" src="https://github.com/user-attachments/assets/2177f5b2-002f-45e2-af12-28a6d36ac1c0" /> </br>
 2)Define routes in post.js :- In the routes/posts.js , use express.js.Router() to  create a modular, mountable route handler. Define your routes using this router instance. </br>   
 <img width="506" height="293" alt="rout-organizing-in-different-files-img18" src="https://github.com/user-attachments/assets/42d1dbf9-e282-4711-8af8-106db8c3a17d" />
+//ON  routes/posts.js file </br>
+const express = require('express'); </br>
+const router  = express.Router(); </br>
 
 
 
