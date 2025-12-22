@@ -134,6 +134,18 @@ app.get('/api/posts', (req, res) => { </br>
     // res.json(posts); </br>
 }); </br>
 
+// "GET" SINGLE POST </br>
+app.get('/api/posts/:id', (req, res) => { </br>
+    // ACCESSING THE "id" FROM req.params </br>
+    const id = parseInt(req.params.id); </br>
+    const post = posts.filter((pos) => pos.id === id);
+    res.json(post); </br>
+}); </br>
+
+app.listen(PORT, () => { </br>
+    console.log(`Server running on Port ${PORT}`); </br>
+}); </br>
+
 
 
 
