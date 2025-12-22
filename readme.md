@@ -105,6 +105,20 @@ E.g diagram below: </br>
 ✔️ How To Get  All , Single File Post  From A JSON Api :- You can basically do that using the  request methods (e.g GET, POST, PUT, DELETE). But specifically we will using the “GET” request . </br>
 <img width="734" height="453" alt="getting-all-files-using-getrequest-img14" src="https://github.com/user-attachments/assets/6597da28-b34c-4f4b-a2a0-016b1700d360" /> </br>
 On server.js file FOR “GET” request - Reads file (example) </br>
+/**
+ * EXAMPLE OF "GET" ROUTE , TO RECIEVCE  "JSON" DATA
+ */ </br>
+const express = require('express'); </br>
+const app = express(); </br>
+const PORT = process.env.PORT || 8080; </br>
+let posts = [
+    { id: 1, title: 'First Post'},
+    { id: 2, title: 'Second Post'},
+    { id: 3, title: 'Third Post'},
+    { id: 4, title: 'Fouth Post'},
+    { id: 5, title: 'Fifth Post'},
+    { id: 6, title: 'Six Post'},
+]; </br>
 
 
 
