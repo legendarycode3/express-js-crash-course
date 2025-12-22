@@ -9,6 +9,7 @@
 6.NPM (Node Package Manager) </br>
 
 
+
 ➡️ **EXPRESS.JS** </br>
 ✔️ What is Express.js ?  Express.js , is a Node.js framework, which has the following attributes / characteristic : It, </br>
 1) Minimal and flexible web framework for Node.js </br>
@@ -16,6 +17,7 @@
 3)The most popular framework for Node. </br>
 4) Simplifies the process of handling HTTP requests and responses. </br>
 5) Express is a very fast and unopinioated framework. </br>
+
 
 
 ➡️ **Opinionated Vs Unopinionated (Framework)**
@@ -51,6 +53,7 @@ The 3 Third 3rd   thing You do is to create the gitignore file in your Code Edit
 
 The 4 Fouth 4th  thing” you will need to do is, “creating an entry file”. (which is your main file). E.g like index.js  , app.js. , server.js  (diagram below): </br>
 <img width="712" height="352" alt="creating-an-entry-file-img4" src="https://github.com/user-attachments/assets/1be58a66-10b6-40cd-bfe0-05a0f535c719" /> </br>
+
 
 
 ➡️ **ROUTING (In Express.js) -  LESSON 1** </br>
@@ -97,8 +100,10 @@ E.g diagram below: </br>
 <img width="127" height="122" alt="integrating-env-img13" src="https://github.com/user-attachments/assets/e2036373-b60f-4e0c-bb6b-3851fbb01669" /> </br>
 
 
+
 ➡️ **CRUD OPERATION (CREATE, READ, UPDATE, DELETE) (In Express.js) -  LESSON 3** </br>
-How To Get  All , Single File Post  From A JSON Api :- You can basically do that using the  request methods (e.g GET, POST, PUT, DELETE). But specifically we will using the “GET” request .
+✔️ How To Get  All , Single File Post  From A JSON Api :- You can basically do that using the  request methods (e.g GET, POST, PUT, DELETE). But specifically we will using the “GET” request . </br>
+
 
 
 
