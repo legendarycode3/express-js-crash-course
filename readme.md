@@ -146,6 +146,20 @@ app.listen(PORT, () => { </br>
     console.log(`Server running on Port ${PORT}`); </br>
 }); </br>
 
+✔️ Getting Query Strings :- You can  use this trick to do so (below): </br>
+// "GET" request , TO "GET" ALL POSTS </br>
+app.get('/api/posts', (req, res) => { </br>
+    // GETTING THE "Query String" </br>
+    const limit = parseInt(req.query.limit); </br>
+    if(!isNaN(limit) && limit > 0){ </br>
+        res.json(posts.slice(0, limit)); </br>
+    } </br>
+    else { </br>
+        res.json(posts); </br>
+    } </br>
+    // res.json(posts); </br>
+}); </br>
+
 
 
 
