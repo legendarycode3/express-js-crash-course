@@ -173,6 +173,15 @@ And if you want to change to “ES module”, just go to package.json file,  and
 //ON  routes/posts.js file </br>
 const express = require('express'); </br>
 const router  = express.Router(); </br>
+// LETS ASSUME WE ARE FETCHING THIS DATA FROM A DATA  </br>
+let posts = [
+    { id: 1, title: 'First Post'},
+    { id: 2, title: 'Second Post'},
+    { id: 3, title: 'Third Post'},
+    { id: 4, title: 'Fouth Post'},
+    { id: 5, title: 'Fifth Post'},
+    { id: 6, title: 'Six Post'},
+]; </br>
 
 
 
