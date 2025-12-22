@@ -159,6 +159,9 @@ app.get('/api/posts', (req, res) => { </br>
     } </br>
     // res.json(posts); </br>
 }); </br>
+<img width="710" height="375" alt="geting-query-strings-img15" src="https://github.com/user-attachments/assets/e1700d6d-c2b8-48e4-9a03-d86bc6b24e75" /> </br>
+<img width="685" height="308" alt="geting-query-strings-img16" src="https://github.com/user-attachments/assets/92c57dfd-e526-4807-b270-7894b7ae8eee" /> </br>
+
 
 
 
