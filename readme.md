@@ -119,6 +119,20 @@ let posts = [
     { id: 5, title: 'Fifth Post'},
     { id: 6, title: 'Six Post'},
 ]; </br>
+// "GET" request , TO "GET" ALL POSTS </br>
+app.get('/api/posts', (req, res) => { </br>
+    // GETTING THE "Query String" </br>
+    const limit = parseInt(req.query.limit);  </br>
+    if(!isNaN(limit) && limit > 0 ){ </br>
+        res.status(200);  </br>
+        res.json(posts.slice(0, limit));  </br>
+    } </br>
+    else { </br>
+        res.status(200); </br>
+        res.json(posts); </br> 
+    } </br>
+    // res.json(posts); </br>
+}); </br>
 
 
 
