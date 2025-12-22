@@ -104,6 +104,7 @@ E.g diagram below: </br>
 ➡️ **CRUD OPERATION (CREATE, READ, UPDATE, DELETE) (In Express.js) -  LESSON 3** </br>
 ✔️ How To Get  All , Single File Post  From A JSON Api :- You can basically do that using the  request methods (e.g GET, POST, PUT, DELETE). But specifically we will using the “GET” request . </br>
 <img width="734" height="453" alt="getting-all-files-using-getrequest-img14" src="https://github.com/user-attachments/assets/6597da28-b34c-4f4b-a2a0-016b1700d360" /> </br>
+On server.js file FOR “GET” request - Reads file (example) </br>
 
 
 
