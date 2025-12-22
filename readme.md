@@ -167,7 +167,8 @@ NOTE: We are still using “common js”, which is the native module system for 
 And if you want to change to “ES module”, just go to package.json file,  and set </br>
 “type”: “module”  </br>
 1) 1st  Create the routes folder and route.js for posts.js file:- Create a new folder named routes in the root of your project. Inside this folder , create a file named routes.js or posts.js etc. </br>
-<img width="444" height="374" alt="rout-organizing-in-different-files-img17" src="https://github.com/user-attachments/assets/2177f5b2-002f-45e2-af12-28a6d36ac1c0" />
+<img width="444" height="374" alt="rout-organizing-in-different-files-img17" src="https://github.com/user-attachments/assets/2177f5b2-002f-45e2-af12-28a6d36ac1c0" /> </br>
+2)Define routes in post.js :- In the routes/posts.js , use express.js.Router() to  create a modular, mountable route handler. Define your routes using this router instance. </br>   
 
 
 
