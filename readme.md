@@ -441,6 +441,10 @@ Key consideration when using colors.js with ES module compatibility, include: </
 (diagram below, shows colors:  is available after installation) </br>
 <img width="438" height="235" alt="using-color-img29" src="https://github.com/user-attachments/assets/a5ec4321-adeb-4554-a152-6a259ce8b5f3" /> </br>
 
+On logger.js  file On MiddleWare Folder,  FOR “LOGGER MIDDLEWARE” IMPLEMENTATION (example) </br>
+<img width="586" height="357" alt="using-color-img30" src="https://github.com/user-attachments/assets/049f7e24-5293-4ff8-ab08-ef52cea6b18f" /> </br>
+
+
 
 
 
