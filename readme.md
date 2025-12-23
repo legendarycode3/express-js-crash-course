@@ -338,9 +338,11 @@ router.delete('/:id', (req, res) => { </br>
         res.json(posts); </br>
     } </br>
 }); </br>
+<img width="784" height="368" alt="how-to-delete-file-delete-request-img22" src="https://github.com/user-attachments/assets/49750ebd-0f8c-4d75-9ae3-93efaf91250d" /> </br>
 
 
 
+➡️ **CONTINUEATION OF “CUSTOM MIDDLEWARE”  (In Express.js) -  LESSON 4** </br>
 
 
 
