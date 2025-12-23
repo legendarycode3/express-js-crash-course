@@ -204,6 +204,15 @@ app.listen(PORT, () => { </br>
 
 ✔️ How To Create Data From The Request Body (POST Request):  To facilitate the handling of incoming request bodies.  It parses various types of data sent in HTTP request bodies , such as  JSON, URL-encoded form data , raw data and text, and makes the data accessible on req.body  object within Express application. </br>
 
+On server.js file FOR “POST” request - create (example) </br>
+/** </br>
+ * - HOW TO GET DATA FROM THE REQUEST "body" -
+ *  USING BODY  PARSER MIDDLEWARE
+ */ </br>
+
+// FOR PARSING application/json (THIS WILL TAKE CARE OF BEEN ABE TO SUBMIT "raw" JSON) </br>
+app.use(express.json()); </br>
+
 
 
 
