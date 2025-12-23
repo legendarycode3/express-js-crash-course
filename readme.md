@@ -467,6 +467,11 @@ console.log(`${req.method} ${req.url} ${req.protocol}://${req.get('host')} ${req
 ✔️ Interating With Our Backend From Our FrontEnd :-  Will be given an Example on how we can interact with our “Backend” from our “FrontEnd”. </br>
 <img width="106" height="120" alt="interacting-with-backend-from-frontend-img31" src="https://github.com/user-attachments/assets/a067200e-174c-495d-a1fa-43e5cc381118" /> </br>
 <img width="97" height="122" alt="interacting-with-backend-from-frontend-img32" src="https://github.com/user-attachments/assets/2df1f290-279e-43d6-bf79-8290fac5cd6f" /> </br>
+<img width="106" height="122" alt="interacting-with-backend-from-frontend-img33" src="https://github.com/user-attachments/assets/cf269ba6-608e-4caf-82ce-5de53638876a" /> </br>
+<img width="103" height="122" alt="interacting-with-backend-from-frontend-img34" src="https://github.com/user-attachments/assets/4e834de1-8e47-4de7-9c35-444cff12cb00" /> </br>
+
+
+
 
 
 
