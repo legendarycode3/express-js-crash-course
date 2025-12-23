@@ -389,6 +389,8 @@ const errorHandler = (err, req, res, next) => { </br>
 }; </br>
 export default errorHandler; </br>
 
+<img width="673" height="416" alt="error-handling-img25" src="https://github.com/user-attachments/assets/6a127e88-ef29-4d3e-8960-6ea20bedbccc" /> </br>
+
 
 
 
