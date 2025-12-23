@@ -433,6 +433,9 @@ router.get('/:id', (req, res, next) => { </br>
 
 ✔️ Using Colors.js :  Using Colors.js (with ES Module Compatibility) ; </br>
  import ‘colors’; is crucial as colors.js extends the string.prototype, allowing you to call color methods directly on the strings. You can chain color and style methods directly onto your strings literals. </br>
+ 
+Key consideration when using colors.js with ES module compatibility, include: </br>
+(diagram below, shows colors:  is available after installation) </br>
 
 
 
