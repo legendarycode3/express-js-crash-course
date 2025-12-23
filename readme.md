@@ -463,6 +463,10 @@ console.log(`${req.method} ${req.url} ${req.protocol}://${req.get('host')} ${req
 
 
 
+➡️ **FETCHING DATA FROM THE FRONTEND  (In Express.js) -  LESSON 6**
+
+
+
 
 
 
