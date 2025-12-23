@@ -470,6 +470,15 @@ console.log(`${req.method} ${req.url} ${req.protocol}://${req.get('host')} ${req
 <img width="106" height="122" alt="interacting-with-backend-from-frontend-img33" src="https://github.com/user-attachments/assets/cf269ba6-608e-4caf-82ce-5de53638876a" /> </br>
 <img width="103" height="122" alt="interacting-with-backend-from-frontend-img34" src="https://github.com/user-attachments/assets/4e834de1-8e47-4de7-9c35-444cff12cb00" /> </br>
 
+On server.js  file On MiddleWare Folder,  FOR “Fetching & Interacting With Our Backend From The FrontEnd ” IMPLEMENTATION (example) </br>
+//USING "import" WITH "ES module" for Path </br>
+import path from 'path'; </br>
+import { fileURLToPath } from 'url'; </br>
+
+// GETTING THE DIRECTORY NAME </br>
+const __filename = fileURLToPath(import.meta.url); </br>
+// console.log(__filename); </br>
+const __dirname = path.dirname(__filename); </br>
 
 
 
