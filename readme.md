@@ -343,6 +343,8 @@ router.delete('/:id', (req, res) => { </br>
 
 
 ➡️ **CONTINUEATION OF “CUSTOM MIDDLEWARE”  (In Express.js) -  LESSON 4** </br>
+✔️ MiddleWare:  This are function that runs , between the “incoming request” & the “outgoing response”. </br>
+They are functions that have access to request(req) & response(res) object. You can use middleware , for : </br>
 
 
 
