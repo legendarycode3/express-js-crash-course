@@ -443,6 +443,22 @@ Key consideration when using colors.js with ES module compatibility, include: </
 
 On logger.js  file On MiddleWare Folder,  FOR “LOGGER MIDDLEWARE” IMPLEMENTATION (example) </br>
 <img width="586" height="357" alt="using-color-img30" src="https://github.com/user-attachments/assets/049f7e24-5293-4ff8-ab08-ef52cea6b18f" /> </br>
+// LOGGER MIDDLEWARE  FOR "Colors.js" </br>
+import colors from 'colors'; </br>
+
+// // 1st FUNCTION -- 1st middleware here </br>
+// function myLogger(req, res, next){ </br>
+//     console.log(`${req.method} ${req.url}`);
+//     next();
+// } </br>
+
+//2nd FUNCTION - for logger middleware </br>
+const  logger = (req, res, next) => { </br>
+console.log(`${req.method} ${req.url} ${req.protocol}://${req.get('host')} ${req.originalUrl}` 
+      ['blue']
+    ); </br>
+    next(); </br>
+} </br>
 
 
 
