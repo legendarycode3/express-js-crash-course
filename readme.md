@@ -480,7 +480,32 @@ const __filename = fileURLToPath(import.meta.url); </br>
 // console.log(__filename); </br>
 const __dirname = path.dirname(__filename); </br>
 
+On index.html  file On Public Folder,  FOR “Fetching & Interacting With Our Backend From The FrontEnd ” IMPLEMENTATION (example) </br>
+<!DOCTYPE html> </br>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Posts </title>
+</head>
+<body>
+    <h1> Welcome to the HomePage </h1>
+    
+    <h1> Posts </h1>
 
+    <button id="get-posts-btn">
+        Get Posts
+    </button>
+
+    <div id="output">
+
+    </div>
+
+    <script src="./main.js">
+
+    </script>
+</body>
+</html> </br>
 
 
 
