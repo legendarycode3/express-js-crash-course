@@ -184,7 +184,27 @@ let posts = [
 ]; </br>
 
 3) Import and use the router in your main application file (e.g., server.js or app.js) :-
-In your main app file , require the route.js file and mount  the router using app.use() .
+In your main app file , require the route.js file and mount  the router using app.use() . </br>
+
+const express = require('express'); </br>
+// INITIALIZING THE express() </br>
+const app = express(); </br>
+
+//IMPORTING THE ROUTER </br>
+const postRoutes = require('./routes/posts'); </br>
+
+/** INSTEAD OF HARD CODING THIS "PORT" , LETS USE THE .env FILE , TO ACCESS THE PORT  */ </br>
+const PORT = process.env.PORT || 8080; </br>
+
+
+//ROUTES (ALL ROUTES DEFINED IN postRoutes will be postfixed  with ‘/api/posts’ ) </br>
+app.use('/api/posts', postRoutes); </br>
+
+
+app.listen(PORT, () => { </br>
+    console.log(`Server running on Port ${PORT}`); </br>
+}); </br>
+
 
 
 
