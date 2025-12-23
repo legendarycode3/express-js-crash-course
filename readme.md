@@ -259,6 +259,30 @@ app.use(express.json()); </br>
 //FOR PARSING application(FOR SENDING URL ENCODED DATA) x-www-form-urlencoded </br>
 app.use(express.urlencoded({ extended: false})) </br>
 
+On The router folder (post.js) file FOR “PUT” request - update  (example) </br>
+//  "PUT" REQUEST (UPDATE), FOR UPDATING -  A POST  </br>
+router.put('/:id', (req, res) => { </br>
+    // ACCESSING THE "id" FROM req.params </br>
+    const id = parseInt(req.params.id); </br>
+
+    // find() ARRAY METHOD , FINDING & UPDATING ONE VALUE WILL WORK HERE SINCE WE JUST GETTING ONE 1 VALUE </br>
+    const postt = posts.find((pos) => pos.id === id); </br>
+
+    if(!postt){ </br>
+        res.status(404); </br>
+        res.json({message: `A post with the id of ${id} was not found`}); </br>
+        //return res.status(404).json({message: `A post with the id of ${id} was not found`}); </br>
+    } </br>
+    else{
+        //postt = req.body; </br>
+        postt.title = req.body.title; </br>
+        res.status(200); </br>
+        res.json(posts); </br>
+        //res.status(200).json(posts); </br>
+    } </br>
+}); </br>
+
+
 
 
 
