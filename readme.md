@@ -183,6 +183,8 @@ let posts = [
     { id: 6, title: 'Six Post'},
 ]; </br>
 
+3) Import and use the router in your main application file (e.g., server.js or app.js) :-
+In your main app file , require the route.js file and mount  the router using app.use() .
 
 
 
