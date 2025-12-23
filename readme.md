@@ -399,6 +399,36 @@ app.use(errorHandler); </br>
 <img width="633" height="324" alt="error-handling-img26" src="https://github.com/user-attachments/assets/fe803666-5131-4747-9083-bda9ff17f764" /> </br>
 <img width="197" height="105" alt="image" src="https://github.com/user-attachments/assets/96ff932a-f281-4351-90c2-fedddd96e2aa" /> </br>
 
+On postsRoutes.js  in Routes folder file On MiddleWare Folder,  FOR “ERROR MIDDLEWARE” IMPLEMENTATION (example for Getting or Reading single file) </br>
+
+// "GET" REQUEST   FOR GETTING - SINGLE POST BY(id) </br>
+router.get('/:id', (req, res, next) => { </br>
+    // ACCESSING THE "id" FROM req.params </br>
+    const id = parseInt(req.params.id); </br>
+     
+    // find() ARRAY METHOD , WILL WORK HERE SINCE WE JUST GETTING ONE 1 VALUE </br>
+    // const post = posts.filter((pos) => pos.id === id); </br>
+    const postt = posts.find((pos) => pos.id === id); </br>
+    if(!postt) </br>
+    { </br>
+        /** </br>
+         * INSTEAD OF PUTTING THIS statuscode(404), LET IT HAPPEN IN THE "ERROR HANDLER"
+         * #ALSO ADD "next" IN THE () PARANTHESIS, FOR THE POST REQUEST 
+        */ </br>
+        // res.status(404); </br>
+        // res.json({message: `A post with the id of ${id} was not found`}); </br>
+       const error = new Error(`A post with the ID: ${id} ,was not found`); </br>
+       error.status = 404; </br>
+        //return next(error); </br>
+         next(error); </br>
+    } 
+    else { </br>
+        res.status(200); </br>
+        res.json(postt); </br>
+    } </br>
+    // res.status(200); </br>
+    // res.json(post); </br>
+}); </br>
 
 
 
