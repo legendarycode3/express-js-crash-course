@@ -431,6 +431,8 @@ router.get('/:id', (req, res, next) => { </br>
 }); </br>
 <img width="766" height="362" alt="error-handling-img28" src="https://github.com/user-attachments/assets/9bf09c22-a536-4501-b6bd-3eee36212244" /> </br>
 
+✔️ Using Colors.js :  Using Colors.js (with ES Module Compatibility) ; </br>
+ import ‘colors’; is crucial as colors.js extends the string.prototype, allowing you to call color methods directly on the strings. You can chain color and style methods directly onto your strings literals. </br>
 
 
 
