@@ -429,6 +429,9 @@ router.get('/:id', (req, res, next) => { </br>
     // res.status(200); </br>
     // res.json(post); </br>
 }); </br>
+<img width="766" height="362" alt="error-handling-img28" src="https://github.com/user-attachments/assets/9bf09c22-a536-4501-b6bd-3eee36212244" /> </br>
+
+
 
 
 
