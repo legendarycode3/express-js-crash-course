@@ -390,6 +390,7 @@ const errorHandler = (err, req, res, next) => { </br>
 export default errorHandler; </br>
 
 <img width="673" height="416" alt="error-handling-img25" src="https://github.com/user-attachments/assets/6a127e88-ef29-4d3e-8960-6ea20bedbccc" /> </br>
+Above, We Define a special middleware function with four arguments: (err, req, res, next). This middleware(error.js) should be placed after all other app.use() and route definitions, (on the server.js file & also make sure to import it).  </br>
 
 
 
