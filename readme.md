@@ -168,7 +168,7 @@ And if you want to change to “ES module”, just go to package.json file,  and
 “type”: “module”  </br>
 1) 1st  Create the routes folder and route.js for posts.js file:- Create a new folder named routes in the root of your project. Inside this folder , create a file named routes.js or posts.js etc. </br>
 <img width="444" height="374" alt="rout-organizing-in-different-files-img17" src="https://github.com/user-attachments/assets/2177f5b2-002f-45e2-af12-28a6d36ac1c0" /> </br>
-2)Define routes in post.js :- In the routes/posts.js , use express.js.Router() to  create a modular, mountable route handler. Define your routes using this router instance. </br>   
+2) Define routes in post.js :- In the routes/posts.js , use express.js.Router() to  create a modular, mountable route handler. Define your routes using this router instance. </br>   
 <img width="506" height="293" alt="rout-organizing-in-different-files-img18" src="https://github.com/user-attachments/assets/42d1dbf9-e282-4711-8af8-106db8c3a17d" />
 //ON  routes/posts.js file </br>
 const express = require('express'); </br>
@@ -196,14 +196,13 @@ const postRoutes = require('./routes/posts'); </br>
 /** INSTEAD OF HARD CODING THIS "PORT" , LETS USE THE .env FILE , TO ACCESS THE PORT  */ </br>
 const PORT = process.env.PORT || 8080; </br>
 
-
 //ROUTES (ALL ROUTES DEFINED IN postRoutes will be postfixed  with ‘/api/posts’ ) </br>
 app.use('/api/posts', postRoutes); </br>
-
-
 app.listen(PORT, () => { </br>
     console.log(`Server running on Port ${PORT}`); </br>
 }); </br>
+
+✔️ How To Create Data From The Request Body (POST Request):  To facilitate the handling of incoming request bodies.  It parses various types of data sent in HTTP request bodies , such as  JSON, URL-encoded form data , raw data and text, and makes the data accessible on req.body  object within Express application. </br>
 
 
 
