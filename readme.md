@@ -436,6 +436,8 @@ router.get('/:id', (req, res, next) => { </br>
  
 Key consideration when using colors.js with ES module compatibility, include: </br>
 (diagram below, shows colors:  is available after installation) </br>
+<img width="438" height="235" alt="using-color-img29" src="https://github.com/user-attachments/assets/a5ec4321-adeb-4554-a152-6a259ce8b5f3" /> </br>
+
 
 
 
