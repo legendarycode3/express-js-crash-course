@@ -370,6 +370,24 @@ export default logger </br>
 ✔️ Error Handling:  Now, Express.js , comes with a default “error handling”;  </br>
 e.g if you make a request to something that does not exit in your created API.  It will give us a 404 error handler (default error handler), but actually gives us an html page, (Obviously that’s not what you want whewn you create an Application & the API handles error this way, it wont be perfect). </br>
 
+I will show you, how to create “custom error handler”, that will give us a “JSON response” along with the “statuscode” e.g 404. </br>
+On error.js  file On MiddleWare Folder,  FOR “ERROR MIDDLEWARE” IMPLEMENTATION (example) </br>
+
+const errorHandler = (err, req, res, next) => { </br>
+    // res.status(404); </br>
+    // res.json({msg: err.message}); </br>
+    
+    if(err.status){ </br>
+        // res.status(404); </br>
+        // res.json({msg: err.message}); </br>
+        res.status(404).json({msg: err.message}); </br>
+    } </br>
+    else { </br>
+        res.status(500); </br>
+        res.json({msg: err.message}); </br>
+    } </br>
+}; </br>
+export default errorHandler; </br>
 
 
 
