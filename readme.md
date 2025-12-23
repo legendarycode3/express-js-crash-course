@@ -463,7 +463,8 @@ console.log(`${req.method} ${req.url} ${req.protocol}://${req.get('host')} ${req
 
 
 
-➡️ **FETCHING DATA FROM THE FRONTEND  (In Express.js) -  LESSON 6**
+➡️ **FETCHING DATA FROM THE FRONTEND  (In Express.js) -  LESSON 6** </br>
+✔️ Interating With Our Backend From Our FrontEnd :  Will be given an Example on how we can interact with our “Backend” from our “FrontEnd”. </br>
 
 
 
