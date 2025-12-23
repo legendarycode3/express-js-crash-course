@@ -248,6 +248,16 @@ router.post('/', (req, res) => { </br>
 
 ✔️ How To “Update Data” From The Request Body (PUT Request):   </br>
 To facilitate the handling of incoming request bodies.  It parses various types of data sent in HTTP request bodies , such as  JSON, URL-encoded form data , raw data and text, and makes the data accessible on req.body  object within Express application. </br>
+On server.js  file,  FOR “PUT” request - update   (example) </br>
+/** </br>
+ * - HOW TO GET DATA FROM THE REQUEST "body" -
+ *  USING BODY  PARSER MIDDLEWARE
+ */ </br>
+// FOR PARSING application/json (THIS WILL TAKE CARE OF BEEN ABLE TO SUBMIT "raw" JSON) </br>
+app.use(express.json()); </br>
+
+//FOR PARSING application(FOR SENDING URL ENCODED DATA) x-www-form-urlencoded </br>
+app.use(express.urlencoded({ extended: false})) </br>
 
 
 
