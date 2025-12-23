@@ -367,6 +367,7 @@ export default logger </br>
 
 
 ➡️ **ERROR HANDLING, COLOR ADDING (In Express.js) -  LESSON 5**
+Error Handling:  Now, Express.js , comes with a default “error handling”;  </br>
 
 
 
