@@ -366,8 +366,9 @@ export default logger </br>
 
 
 
-➡️ **ERROR HANDLING, COLOR ADDING (In Express.js) -  LESSON 5**
-Error Handling:  Now, Express.js , comes with a default “error handling”;  </br>
+➡️ **ERROR HANDLING, COLOR ADDING (In Express.js) -  LESSON 5** </br>
+✔️ Error Handling:  Now, Express.js , comes with a default “error handling”;  </br>
+e.g if you make a request to something that does not exit in your created API.  It will give us a 404 error handler (default error handler), but actually gives us an html page, (Obviously that’s not what you want whewn you create an Application & the API handles error this way, it wont be perfect). </br>
 
 
 
