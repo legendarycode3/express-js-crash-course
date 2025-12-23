@@ -480,47 +480,35 @@ const __filename = fileURLToPath(import.meta.url); </br>
 // console.log(__filename); </br>
 const __dirname = path.dirname(__filename); </br>
 
-On index.html  file On Public Folder,  FOR “Fetching & Interacting With Our Backend From The FrontEnd ” IMPLEMENTATION (example) </br>
-<!DOCTYPE html> </br>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Posts </title>
-</head>
-<body>
-    <h1> Welcome to the HomePage </h1>
-    
-    <h1> Posts </h1>
 
-    <button id="get-posts-btn">
-        Get Posts
-    </button>
+On main.js  file On Public Folder,  FOR “Fetching & Interacting With Our Backend From The FrontEnd ” IMPLEMENTATION (example)
+const output = document.querySelector('#output'); </br>
 
-    <div id="output">
+const button = document.querySelector('#get-posts-btn'); </br>
+//GET & SHOW  POST (posts) </br>
+async function showPosts() { </br>
+    try { </br>
+        const res = await fetch('http//localhost:8000/api/posts'); </br>
+		
+        if(!res.ok){ </br>
+            throw new Error("Failed to fetch the posts"); </br>
+        } </br>
 
-    </div>
+        const postss = await res.json(); </br>
+        output.innerHTML = ''; </br>
 
-    <script src="./main.js">
+        postss.forEach((post) => { </br>
+            const postEl = document.createElement('div'); </br>
+            postEl.textContent = post.title; </br>
+            output.appendChild(postEl); </br>
+        }) </br>
+    } </br>
+    catch (error) { </br>
+      console.log('Error Fetching The Posts: ', error);  </br>
+    } </br>
+} </br>
 
-    </script>
-</body>
-</html> </br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+button.addEventListener('click', showPosts); </br>
 
 
 
