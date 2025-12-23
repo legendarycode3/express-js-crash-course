@@ -281,6 +281,10 @@ router.put('/:id', (req, res) => { </br>
         //res.status(200).json(posts); </br>
     } </br>
 }); </br>
+<img width="698" height="346" alt="creating-data-from-a-request-body-post-request-img21" src="https://github.com/user-attachments/assets/103e1bb5-86fb-463d-8fdc-b17647e850a7" /> </br>
+
+✔️ How To “Delete” A Post  (DELETE Request):  </br>
+To “DELETE” data using Delete request in Express.js, follow these steps: below </br>
 
 
 
