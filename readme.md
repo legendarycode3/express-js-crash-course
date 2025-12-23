@@ -396,6 +396,8 @@ On server.js  file On MiddleWare Folder,  FOR “ERROR MIDDLEWARE” IMPLEMENTAT
 import errorHandler from './middleware/error.js'; </br>
 //ERROR HANDLER (error middleware) </br>
 app.use(errorHandler); </br>
+<img width="633" height="324" alt="error-handling-img26" src="https://github.com/user-attachments/assets/fe803666-5131-4747-9083-bda9ff17f764" /> </br>
+
 
 
 
