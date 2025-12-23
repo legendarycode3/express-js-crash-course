@@ -513,7 +513,9 @@ button.addEventListener('click', showPosts); </br>
 
 
 
-➡️ **TEMPLATE ENGINES (In Express.js) -  LESSON 7**
+➡️ **TEMPLATE ENGINES (In Express.js) -  LESSON 7** </br>
+✔️ Template Engines:  </br>
+Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 
 
 
