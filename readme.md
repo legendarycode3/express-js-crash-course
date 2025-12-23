@@ -286,6 +286,59 @@ router.put('/:id', (req, res) => { </br>
 ✔️ How To “Delete” A Post  (DELETE Request):  </br>
 To “DELETE” data using Delete request in Express.js, follow these steps: below </br>
 
+On server.js  file,  FOR “DELETE” request - Delete (example) </br>
+//USING "import " WITH "ES module" for express </br>
+import express from 'express'; </br>
+
+// INITIALIZING THE express() </br>
+const app = express(); </br>
+
+// FOR PARSING application/json (THIS WILL TAKE CARE OF BEEN ABLE TO SUBMIT "raw" JSON) </br>
+app.use(express.json()); </br>
+
+//FOR PARSING application(FOR SENDING URL ENCODED DATA) x-www-form-urlencoded </br>
+app.use(express.urlencoded({ extended: false})) </br>
+
+const PORT = process.env.PORT || 8080; </br>
+
+//ROUTES </br>
+app.use('/api/posts', postRoutes); </br>
+
+On The router folder (post.js) file FOR “DELETE” request - Delete (example) </br>
+//  "DELETE" REQUEST (DELETE), FOR DELETING -  A POST </br>
+router.delete('/:id', (req, res) => { </br>
+    // CONVERTING TO NUMBER, THE (id) IF IT APPEARS AS LETTER </br>
+    // ACCESSING THE "id" FROM req.params </br>
+    const id = parseInt(req.params.id); </br>
+
+    // find() ARRAY METHOD , FINDIN & UPDATING ONE VALUE WILL WORK HERE SINCE WE JUST GETTING ONE 1 VALUE </br>
+    const postt = posts.find((pos) => pos.id === id); </br>
+
+    // if(!postt){ </br>
+    //     res.status(404); </br>
+    //     res.json({message: `A post with the ID: ${id}, was not found, when trying to DELETE`}); </br>
+    // }else { </br>
+    //     posts.splice(postt, 1); </br>
+    //     //posts = posts.filter((pos) => pos !== id); </br>
+    //     res.status(200); </br>
+    //     res.json(`Deleted Sucessfully ID: ${id}`); </br>
+    // } </br>
+
+    // OR </br>
+    if(!postt){ </br>
+        res.status(404); </br>
+        res.json({message: `A post with the ID: ${id}, was not found, when trying to DELETE`}); </br>
+        // return res.status(200).json({message: `A post with the ID: ${id}, was not found, when trying to DELETE`}); </br>
+    }else { </br>
+
+        //posts.splice(postt, 1); </br>
+        posts = posts.filter((pos) => pos.id !== id); </br>
+        res.status(200); </br>
+        //res.json(`Deleted Sucessfully ID: ${id}`); </br>
+        res.json(posts); </br>
+    } </br>
+}); </br>
+
 
 
 
