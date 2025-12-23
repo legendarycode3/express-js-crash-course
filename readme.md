@@ -397,6 +397,8 @@ import errorHandler from './middleware/error.js'; </br>
 //ERROR HANDLER (error middleware) </br>
 app.use(errorHandler); </br>
 <img width="633" height="324" alt="error-handling-img26" src="https://github.com/user-attachments/assets/fe803666-5131-4747-9083-bda9ff17f764" /> </br>
+<img width="197" height="105" alt="image" src="https://github.com/user-attachments/assets/96ff932a-f281-4351-90c2-fedddd96e2aa" /> </br>
+
 
 
 
