@@ -212,6 +212,8 @@ On server.js file FOR “POST” request - create (example) </br>
 
 // FOR PARSING application/json (THIS WILL TAKE CARE OF BEEN ABE TO SUBMIT "raw" JSON) </br>
 app.use(express.json()); </br>
+<img width="594" height="385" alt="creating-data-from-a-request-body-post-request-img19" src="https://github.com/user-attachments/assets/3a8036f8-f6a2-4cae-9418-0be020bb0f0f" />
+
 
 
 
