@@ -218,6 +218,33 @@ app.use(express.json()); </br>
 app.use(express.urlencoded({ extended: false})) </br>
 <img width="658" height="329" alt="creating-data-from-a-request-body-post-request-img20" src="https://github.com/user-attachments/assets/29e158be-3c14-4b61-af2a-4b3624b4cd39" />
 
+On The router folder (post.js)  file FOR “POST” request - create  (example) </br>
+//  CREATE  NEW POST  </br>
+// (IN REALITY WE WILL BE ADDING IT TO THE DATABASE, AND THE DATABASE WILL GIVE YOU THE "id" etc.) </br>
+router.post('/', (req, res) => { </br>
+    //console.log(req.body); </br>
+    
+    const newPost = { </br>
+        id: posts.length + 1, </br>
+        title: req.body.title </br>
+    }; </br>
+    //newPost = JSON.parse(body); </br>
+
+    // (!newPost)IF THE "newPost" THOSE NOT HAVE A TITLE </br>
+    if (!newPost.title){ </br>
+        res.status(400); </br>
+        res.json({message: 'Please , include a title'}); </br>
+        //return res.status(400).json({message: 'Please , include a title'}); </br>
+    } </br>
+    else{ </br>
+        posts.push(newPost) </br>
+        res.status(201); </br>
+        res.json(posts); </br>
+        //res.status(201).json(posts); </br>
+    } </br>
+
+    // res.status(201).json(posts); </br>
+}); </br>
 
 
 
