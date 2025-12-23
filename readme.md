@@ -350,6 +350,8 @@ ii). For authentication. </br>
 iii). You can add to request object. </br>
 
 On logger.js  file On MiddleWare Folder,  FOR “LOGGER MIDDLEWARE” IMPLEMENTATION (example) </br>
+<img width="222" height="138" alt="image" src="https://github.com/user-attachments/assets/a9b24e23-c3e6-42ed-a75b-150a875da1e2" /> </br>
+
 
 
 
