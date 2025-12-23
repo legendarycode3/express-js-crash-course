@@ -216,6 +216,8 @@ app.use(express.json()); </br>
 
 //FOR PARSING application(FOR SENDING URL ENCODED DATA) x-www-form-urlencoded  </br>
 app.use(express.urlencoded({ extended: false})) </br>
+<img width="658" height="329" alt="creating-data-from-a-request-body-post-request-img20" src="https://github.com/user-attachments/assets/29e158be-3c14-4b61-af2a-4b3624b4cd39" />
+
 
 
 
