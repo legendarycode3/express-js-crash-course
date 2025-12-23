@@ -246,6 +246,10 @@ router.post('/', (req, res) => { </br>
     // res.status(201).json(posts); </br>
 }); </br>
 
+✔️ How To “Update Data” From The Request Body (PUT Request):   </br>
+To facilitate the handling of incoming request bodies.  It parses various types of data sent in HTTP request bodies , such as  JSON, URL-encoded form data , raw data and text, and makes the data accessible on req.body  object within Express application. </br>
+
+
 
 
 
