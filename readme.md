@@ -371,6 +371,7 @@ export default logger </br>
 Error handling in Express.js is managed through error-handling middleware
 functions, which are identified by having four arguments: (err, req, res, next).
 These provide a centralized way to catch and process errors that occur within your
+application, both synchronously and asynchronously.  </br>
 e.g if you make a request to something that does not exit in your created API.  It will give us a 404 error handler (default error handler), but actually gives us an html page, (Obviously that’s not what you want whewn you create an Application & the API handles error this way, it wont be perfect). </br>
 
 I will show you, how to create “custom error handler”, that will give us a “JSON response” along with the “statuscode” e.g 404. </br>
@@ -520,6 +521,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
