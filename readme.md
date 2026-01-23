@@ -63,7 +63,9 @@ PUT, DELETE).  </br>
 
 ✔️ Basic Routing : </br>
 Routes are defined using methods of the express app object that correspond to HTTP
-methods. The general syntax is app.METHOD(PATH, HANDLER). 
+methods. The general syntax is app.METHOD(PATH, HANDLER). </br>
+1.) app: An instance of the Express application. </br>
+
 
 NOTE: When developing with Express.js,  the package manager you would use to install a tool that automatically restarts your server upon code changes includes: 
  npm (Node Package Manager) 3rd parrty package Or the watch flask (node watch) </br>
@@ -529,6 +531,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
