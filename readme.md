@@ -11,7 +11,8 @@
 
 
 ➡️ **EXPRESS.JS** </br>
-✔️ What is Express.js ?  Express.js , is a Node.js framework, which has the following attributes / characteristic : It, </br>
+✔️ What is Express.js ?   is a fast, unopinionated, and minimalist back-end web
+Express.js , is a Node.js framework, which has the following attributes / characteristic : It, </br>
 1) Minimal and flexible web framework for Node.js </br>
 2) Used for building “Server-Side Web Applications”, “Micro Services” and “APIs” . </br>
 3)The most popular framework for Node. </br>
@@ -534,6 +535,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
