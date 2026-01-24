@@ -46,7 +46,7 @@ and simplifying common tasks, reducing the amount of code needed compared to raw
 2.) JavaScript Ecosystem: Being a JavaScript framework, it allows developers to use
 the same language on both the frontend and backend, which streamlines the
 development process and reduces context switching. </br>
-3.) Large Community & Ecosystem: 
+3.) Large Community & Ecosystem: A vast and active community contributes to
 
 
 ✔️ When Creating A Express.js Project: </br>
@@ -548,6 +548,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
