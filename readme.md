@@ -52,6 +52,7 @@ extensive documentation, tutorials, and a rich ecosystem of third-party plugins 
 4.) It offers a robust routing system . </br>
 5.) It offers HTTP helpers (redirection, caching, etc.) </br>
 6.) Support for middleware to respond to HTTP requests </br>
+7.) A templating engine for dynamic HTML rendering </br>
 
 
 ✔️ Key Characteristics: </br>
@@ -561,6 +562,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
