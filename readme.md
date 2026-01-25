@@ -66,6 +66,7 @@ extensive documentation, tutorials, and a rich ecosystem of third-party plugins 
 ✔️ Features of Express </br>
 1.) Middleware and Routing:  Define clear pathways (routes) within yourapplication to handle incoming HTTP requests (GET, POST, PUT, DELETE). </br>
 2.) Minimalistic Design:  Express.js follows a simple and minimalistic design philosophy. This simplicity allows you to quickly set up a server, define
+routes, and handle HTTP requests efficiently. </br>
 
 
 ✔️ When Creating A Express.js Project: </br>
@@ -567,6 +568,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
