@@ -71,6 +71,7 @@ routes, and handle HTTP requests efficiently. </br>
 You can structure your code according to your preferences. </br>
 4.) Templating Power: Incorporate templating engines like Jade or EJS to generate dynamic 
 HTML content, enhancing user experience.
+5.) Static File Serving:
 
 
 ✔️ When Creating A Express.js Project: </br>
@@ -572,6 +573,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
