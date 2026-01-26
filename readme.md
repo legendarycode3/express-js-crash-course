@@ -68,7 +68,8 @@ extensive documentation, tutorials, and a rich ecosystem of third-party plugins 
 2.) Minimalistic Design:  Express.js follows a simple and minimalistic design philosophy. This simplicity allows you to quickly set up a server, define
 routes, and handle HTTP requests efficiently. </br>
 3.) Flexibility and Customization: Express.js doesn’t impose a strict application architecture.
-You can structure your code according to your preferences.
+You can structure your code according to your preferences. </br>
+4.) Templating Power:
 
 
 ✔️ When Creating A Express.js Project: </br>
@@ -570,6 +571,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
