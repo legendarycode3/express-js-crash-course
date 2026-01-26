@@ -75,6 +75,7 @@ HTML content, enhancing user experience.
 designated directory within your application. </br>
 6.) Node.js Integration: Express.js seamlessly integrates with the core functionalities of Node.js,
  allowing you to harness the power of asynchronous programming and event-driven architecture. </br>
+ Here are some captivating examples: </br>
 
 
 ✔️ Applications of Express </br>
@@ -580,6 +581,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
