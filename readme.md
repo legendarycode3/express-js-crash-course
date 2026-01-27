@@ -82,6 +82,7 @@ designated directory within your application. </br>
 
 ✔️ Applications of Express </br>
 Express.js empowers you to construct a wide array of web applications.  </br>
+Here are some captivating examples: </br>
 
 
 ✔️ When Creating A Express.js Project: </br>
@@ -583,6 +584,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
