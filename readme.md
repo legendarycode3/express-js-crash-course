@@ -161,6 +161,8 @@ i). For logins. </br>
 ii).For authentication. </br>
 iii).You can add to request object. </br>
 
+Common Use Cases for Custom Middleware </br>
+
 Setting Up A Static Server In Express.js: </br> 
 You will use the built-in express.static  middleware. This  middleware  allows you to serve static files such as HTML, CSS , JavaScript, Images  & other assets directly from a specified directory. </br>
 
@@ -599,6 +601,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
