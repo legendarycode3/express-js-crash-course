@@ -103,6 +103,9 @@ Node.js web application framework that simplifies server-side coding and acceler
 development process. It provides essential features for web development without
 imposing a rigid structure, giving developers freedom and control. </br>
 
+
+✔️ Key reasons for its popularity include: </br>
+
 ✔️ When Creating A Express.js Project: </br>
 	**NOTE:** When starting a new “nodejs project”. </br>
 The first 1st thing You will need to create a  “package.json” file . </br>
@@ -610,6 +613,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
