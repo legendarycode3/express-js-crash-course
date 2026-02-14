@@ -98,6 +98,7 @@ community and extensive ecosystem of plugins and resources make it a reliable an
 well-supported choice for both beginners and experienced developers building scalable
 applications. More information, tutorials, and documentation can be found on the official
 Express.js website.  </br>
+Developers prefer Express.js because it is a minimalist, flexible, and unopinionated
 
 
 ✔️ When Creating A Express.js Project: </br>
@@ -607,6 +608,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
