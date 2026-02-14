@@ -106,6 +106,7 @@ imposing a rigid structure, giving developers freedom and control. </br>
 
 ✔️ Key reasons for its popularity include: </br>
 1. Unified JavaScript Stack: Express.js is built on Node.js, allowing developers to use a
+2. single language (JavaScript) for both frontend and backend development. This
 
 ✔️ When Creating A Express.js Project: </br>
 	**NOTE:** When starting a new “nodejs project”. </br>
@@ -614,6 +615,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
