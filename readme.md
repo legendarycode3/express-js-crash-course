@@ -59,7 +59,7 @@ extensive documentation, tutorials, and a rich ecosystem of third-party plugins 
 1. RESTful APIs: Express is highly efficient for building backend APIs for mobile or web applications. </br>
 2. Single-Page Applications (SPAs): Used to serve the initial page and manage API requests. </br>
 3. Real-Time Applications: Combined with tools like Socket.io for live chat or tracking apps. </br>
-4. MERN/MEAN Stack:  It is the standard back-end component in MERN (MongoDB, 
+4. MERN/MEAN Stack:  It is the standard back-end component in MERN (MongoDB, Express, React, Node) and MEAN (MongoDB, Express, Angular, Node) stacks. </br>
 
 ✔️ Key Characteristics: </br>
 1.) Minimal and flexible </br>
@@ -626,6 +626,7 @@ button.addEventListener('click', showPosts); </br>
 ✔️ Template Engines:  </br>
 Ejs or Embedded javascript , is a popular template engine used in Node.js & Express.js , to generate dynamic HTML content.  It allows developers to embed plain Javascript code directly within HTML files , creating server -rendered web application. </br>
 Make sure to install “template engines” like .ejs  , you can use anyone you want whenworking on express.js </br>
+
 
 
 
